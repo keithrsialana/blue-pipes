@@ -3,7 +3,7 @@ describe("Quiz Website", () => {
 		cy.visit("https://blue-pipes.onrender.com/");
 	});
 
-	it("makes sure that the quiz starts after lcicking start quiz", () => {
+	it("makes sure that the quiz starts after clicking start quiz", () => {
 		cy.get('.btn-primary').should("exist").click();
         cy.get('.btn-primary').contains("Start Quiz").should("not.exist");
 	});

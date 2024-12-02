@@ -24,10 +24,11 @@ The purpose of this project is to implement a CI/CD pipeline using GitHub Action
 4. Set up `.env` environment variable `MONGODB_URI` with your MongoDB connection string (I used MongoDB Atlas)
 
 ## Usage Instructions
+- You can use the deployed application [here](https://blue-pipes.onrender.com/)
 1. Start the application:
-- Run `npm start` to start the server
+    - Run `npm start` to start the server
 2. Access the application:
-- Open a web browser and navigate to `http://localhost:3001`
+    - Open a web browser and navigate to `http://localhost:3001`
 
 ## Technologies Used
 - Programming Language: JavaScript (Node.js), Typescript
